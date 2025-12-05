@@ -19,7 +19,7 @@ if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY is not set in the .env file")
 
 if __name__=="__main__":
-    image_path = "path/to/your/image.jpg"
+    image_path = ""
     query="what are the encoders in this picture?"
     result=process_image(image_path, query)
     print (result)
